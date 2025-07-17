@@ -1,0 +1,55 @@
+/* App.css */
+.calculator {
+  max-width: 300px;
+  margin: 50px auto;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #333;
+}
+
+.screen {
+  color: white;
+  background: #111;
+  font-size: 2.5rem;
+  padding: 20px;
+  text-align: right;
+  min-height: 60px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 23%;
+  margin: 1%;
+  font-size: 1.5rem;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  background: #555;
+}
+
+.gray {
+  background: #999;
+  color: black;
+}
+
+.orange {
+  background: orange;
+  color: white;
+}
+
+.equal {
+  background: green;
+  color: white;
+  height: 108px;
+}
